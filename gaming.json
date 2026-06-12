@@ -1,0 +1,13 @@
+{
+  "name": "Gaming combo macro",
+  "description": "Example game macro: sprint + attack + reload",
+  "commands": [
+    { "action": "wait",    "seconds": 0.1 },
+    { "action": "key",     "key": "shift" },
+    { "action": "key",     "key": "w" },
+    { "action": "wait",    "seconds": 0.3 },
+    { "action": "click",   "button": "left" },
+    { "action": "wait",    "seconds": 0.1 },
+    { "action": "key",     "key": "r" }
+  ]
+}
