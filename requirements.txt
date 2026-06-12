@@ -1,0 +1,4 @@
+pynput
+flask
+flask-cors
+vgamepad; sys_platform == "win32"
