@@ -1,0 +1,13 @@
+{
+  "name": "Office shortcuts macro",
+  "description": "Save file, copy all, open new tab",
+  "commands": [
+    { "action": "hotkey",  "keys": ["ctrl", "s"] },
+    { "action": "wait",    "seconds": 0.2 },
+    { "action": "hotkey",  "keys": ["ctrl", "a"] },
+    { "action": "wait",    "seconds": 0.1 },
+    { "action": "hotkey",  "keys": ["ctrl", "c"] },
+    { "action": "wait",    "seconds": 0.1 },
+    { "action": "hotkey",  "keys": ["ctrl", "t"] }
+  ]
+}
